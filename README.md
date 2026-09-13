@@ -15,3 +15,5 @@ https://www.cdc.gov/nchs/nis/data_files_teen.htm
 https://www.cdc.gov/nchs/nis/data_files_09_prior.htm
 
 https://data.cdc.gov/Vaccinations/Vaccination-Coverage-and-Exemptions-among-Kinderga/ijqb-a7ye/about_data
+
+IPUMS CPS, University of Minnesota, www.ipums.org
