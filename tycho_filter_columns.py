@@ -1,6 +1,6 @@
-tycho_filter_columns.py
+# tycho_filter_columns.py
 
-@author: Natasha
+# @author: Natasha
 
 # filter Project Tycho data to focus on disease column = measles, mumps, polio, or rubella
 import pandas as pd
