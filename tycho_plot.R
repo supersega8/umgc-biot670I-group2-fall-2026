@@ -1,6 +1,6 @@
-tycho_plot.R
+# tycho_plot.R
 
-@author: Natasha
+# @author: Natasha
 
 # use created csv ('Project Tycho Filtered Dates.csv') to begin to plot vaccine data by year/region
 
