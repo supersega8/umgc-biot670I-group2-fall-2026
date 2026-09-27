@@ -38,13 +38,13 @@ for number in original_index:
 
     for item in cleaned_list:
 
-        if number in item:
+        if f"nispuf{number}" in item:
             matching_url = item
             break
-
-    if matching_url is None:
-        print(f"No URL found for {number}")
-        continue
+        elif f"nispuf{number}" not in item:
+            if f"NISPUF{number}" in item:
+              matching_url = item
+              break
     
     
     if matching_url.lower().endswith(".zip"):
