@@ -37,14 +37,14 @@ mumps_plot <- ggplot(mumps_tidy, aes(x = year, y = cases, color = `Country / Reg
  geom_line(na.rm = TRUE, linewidth = 1) +
  geom_point(na.rm = TRUE) +
  facet_wrap(~ `Country / Region`, scales = "free_y") +
- labs (title = "Measles Cases By Region Since 1980", x = "Year", y = "Number of Cases", color = "WHO Region") +
+ labs (title = "Mumps Cases By Region Since 1980", x = "Year", y = "Number of Cases", color = "WHO Region") +
  theme_minimal() +
  theme(legend.position = "bottom")
 
 print(mumps_plot)
 
 # save plot to PDF
-ggsave("mumps_plot.pdf", plot = Mumps_Plot, width = 8.5, height = 11)
+ggsave("Mumps_Plott.pdf", plot = mumps_plot, width = 8.5, height = 11)
 
 # save plot to PNG
 # save last plot used
