@@ -15,7 +15,7 @@ Rdata_path <- readline(
 #can edit to select years
 datfilelist <- c(
   '95','96','97','98','99',
-  '00','01','02','03','04','05'
+  '00','01','02','03','04','05','15'
 )
 
 dat_list <- list.files(
