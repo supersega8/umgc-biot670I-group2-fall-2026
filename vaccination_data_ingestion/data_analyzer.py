@@ -9,10 +9,10 @@ from pathlib import Path
 import subprocess
 import time
 
-"""This is the index of files, 2015 was skipped since there were no R data files for that particular year. R data files started around 2006. Prior to that it was all
+"""This is the index of files, 2015 was skipped since there were no R data files for that particular year (see sas converter). R data files started around 2006. Prior to that it was all
 SAS (from 1995-2005)"""
 #need to convert sc
-index =['20','24']
+index =['06','07','08','09','10','11','12','13','14','16','17','18','19','20','21','22','23','24']
 
 
 #Data analyzer, checks to see if the R files exist first, then does some code manipulation with R, finally
