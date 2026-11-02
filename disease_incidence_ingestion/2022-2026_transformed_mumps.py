@@ -12,8 +12,8 @@ from pathlib import Path
 
 
 filedirectory = Path(
-    r"C:\Users\sumit\Documents\UMGC 670 Fall 2026 capstone\disease_incidence"
-)
+    input(r"Tell me where the 2022_2026_rubella.csv is"
+))
 
 df = pd.read_csv(filedirectory / "2022-2026_rubella.csv")
 
