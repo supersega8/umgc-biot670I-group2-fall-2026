@@ -12,7 +12,7 @@ from pathlib import Path
 
 
 filedirectory = Path(
-    r"C:\Users\sumit\Documents\UMGC 670 Fall 2026 capstone\disease_incidence"
+    input(r"Tell me where the 2022-2026_rubella.csv is located": )
 ).mkdir(parents=True, exist_ok=True)
 
 df = pd.read_csv(filedirectory / r"2022-2026_rubella.csv")
