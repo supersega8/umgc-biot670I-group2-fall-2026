@@ -1,0 +1,43 @@
+# BIOT 670i Capstone: Vaccination Coverage and Disease Incidence
+# Python dependencies for ETL, dataset merging, analysis, and visualizations.
+# Developed using Python 3.12 and Spyder IDE 5.5.1.
+#
+# Installation (ideally in a fresh environment):
+#   python -m pip install -r requirements.txt
+#
+# IMPORTANT: R, RStudio, and R packages are installed separately.
+# See requirements_R.R and SETUP.md.
+
+# Development environment (exact IDE version used)
+spyder==5.5.1
+
+# Data cleaning, transformations, and merging
+pandas
+numpy
+
+# CDC web and HTML data extraction
+requests
+beautifulsoup4
+
+# Reading historical report PDFs and R data exports
+pypdf
+pyreadr
+
+# Statistical analysis (scipy.stats is included in scipy)
+scipy
+statsmodels
+
+# Data visualization / diagnostic plots
+matplotlib
+seaborn
+plotnine
+
+# Epidemiological week handling
+epiweeks
+
+# Optional: only uncomment if using a Streamlit/Plotly dashboard
+# streamlit
+# plotly
+
+# Python standard-library modules used in scripts, such as pathlib,
+# re, subprocess, and csv, do NOT need to be installed via pip.
